@@ -4,6 +4,10 @@ main {
   align-items: center;
 }
 
+#details {
+  animation: showDetails 0.15s 0.3s linear both;
+}
+
 .infoContainer {
   display: flex;
   flex-direction: column;
@@ -46,4 +50,13 @@ a {
 
 a:hover {
   opacity: 0.75;
+}
+
+@keyframes showDetails {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

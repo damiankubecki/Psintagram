@@ -1,11 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+h1 {
+  margin: 30px 0 20px;
+  color: #80471c;
+  text-align: center;
+  animation: showTitle 0.6s 0.5s linear both;
 }
 
-h1 {
-  text-align: center;
-  padding: 10px 0 20px;
-  color: #80471c;
+@keyframes showTitle {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

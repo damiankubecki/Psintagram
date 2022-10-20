@@ -9,8 +9,8 @@
     </select>
   </section>
   <section>
-    <img src="{{ image }}" alt="" height="250px" />
-    <div *ngIf="image">
+    <img src="{{ image }}" alt="zdjecie psa" height="250px" />
+    <div *ngIf="image" class="infoContainer">
       <p>Przeczytaj więcej o tej rasie na wikipedii:</p>
       <a
         href="https://en.wikipedia.org/wiki/{{ currentBreed }}"

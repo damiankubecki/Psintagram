@@ -1,0 +1,22 @@
+<main>
+  <section>
+    <p>Rasa psa:</p>
+    <select (change)="handleSelectChange($event)">
+      <option value="">wybierz</option>
+      <option [value]="breed" *ngFor="let breed of breeds">
+        {{ breed }}
+      </option>
+    </select>
+  </section>
+  <section>
+    <img src="{{ image }}" alt="" height="250px" />
+    <div *ngIf="image">
+      <p>Przeczytaj więcej o tej rasie na wikipedii:</p>
+      <a
+        href="https://en.wikipedia.org/wiki/{{ currentBreed }}"
+        target="_blank"
+        >{{ currentBreed }}</a
+      >
+    </div>
+  </section>
+</main>

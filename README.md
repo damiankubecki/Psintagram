@@ -1,4 +1,4 @@
-# Psintagram (kliknij, aby zobaczyć live)
+# [Psintagram] (kliknij, aby zobaczyć live)
 
 ### Aplikacja do przegladania ras psów.
 Po wejściu na stronę możesz wybrać z listy rasę psa, która cię interesuje, a następnie zobaczysz przykładowe zdjęcie zwierzęcia, wraz z linkiem do większej ilości informacji na jego temat. 
